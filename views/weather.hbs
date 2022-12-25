@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   {{>head}}
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- navbar -->
+  {{>navbar}}
+    <!-- main -->
+     
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+     <div class="main_content">
+     <form action="">
+      <input type="text" name="cityName" id="CName" placeholder="Enter the city name">
+      <button type="submit" id="submit">search</button>
+     </form>
+     <div class="tempInfo">
+      <div class="top_layer">
+     <p id="day"> Friday</p>
+    <p id="date">24 Dec 2022</p>
+      </div>
+    <div class="main_layer">
+     <p id="cityName">
+     Output Here </p>
+    <div class="middle_layer data_hide">
+
+    <p id="temp"><span id ="tempDeg">0</span>&deg;C</p>
+     <p id="tempStatus"><i class="fa-solid fa-sun"></i></p>
+
+
+
+ 
+</div>
+     </div>
+    </div>
+        </div>
+          </div>
+            </div>
+    <!-- footer -->
+   {{>footer}}
+  </body>
+ <script src="js/script.js"></script>
+</html>
