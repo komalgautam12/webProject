@@ -127,7 +127,7 @@ body {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  margin: 3rem;
+  margin:4rem  3rem ;
   border-radius: 4rem;
   font-weight: bold;
 }
@@ -147,7 +147,7 @@ body {
 }
 .tempInfo {
   width: 40rem;
-  margin: auto;
+  margin: 5rem  auto ;
   min-height: 20rem;
   background-color: var(--main-color);
   border-radius: 1rem;
@@ -238,5 +238,12 @@ body {
     padding: 0 0.4rem;
     font-size: 1.5rem;
     width: 25%;
+  }
+  .tempInfo{
+    margin: 2rem auto;
+    width: 32rem;
+  }
+  .main_content form {
+  width: 90%;
   }
 }
